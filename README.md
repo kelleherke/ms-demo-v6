@@ -42,16 +42,6 @@ The config server is setup to read zuulservice config data from github
    
 All configuration can be seen via [http://localhost:8762/zuulservice/default](http://localhost:8762/zuulservice/default)
 
-###git commands
-    C:\config-repo [master =]> echo "# citadelconfigsvr" >> README.md
-    C:\config-repo [master =]> git init
-    C:\config-repo [master =]> git add README.md
-    C:\config-repo [master =]> git commit -m "first commit"
-    C:\config-repo [master =]> git remote add origin https://github.com/kelleherke/citadelconfigsvr.git
-    C:\config-repo [master =]> git push -u origin master
-    C:\config-repo [master =]> git commit -am "fifth commit"
-
-
 
 ##zipkinasvr
 To enable distributed tracing I use Open Zipkin.
